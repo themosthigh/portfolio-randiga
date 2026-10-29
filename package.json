@@ -55,5 +55,11 @@
 	},
 	"engines": {
 		"node": ">=26.x"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@tailwindcss/oxide",
+			"esbuild"
+		]
 	}
 }
